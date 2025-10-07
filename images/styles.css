@@ -196,8 +196,12 @@ table {
 /* ROOT VARIABLES */
 :root{
     color:  #4CA7C0,#484FB7,#6B8FE7,#E9BB57,#D9526F,#1E1E1E,#ffffff;
+    
 }
 /* GLOBAL STYLES (mobile first/small) */
+body{
+    background-color: #6B8FE7;
+}
 h1,h2{
     font-family: Kavoon;
 }
