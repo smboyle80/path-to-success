@@ -196,30 +196,171 @@ table {
 /* ROOT VARIABLES */
 :root{
     color:  #4CA7C0,#484FB7,#6B8FE7,#E9BB57,#D9526F,#1E1E1E,#ffffff;
-    
+    font-family: Inter;
+    align-content: center;
+  @media screen {max-width:450px;}
+       
 }
 /* GLOBAL STYLES (mobile first/small) */
+
+  
+
 body{
     background-color: #6B8FE7;
+    margin: 10px;
+}
+nav{
+  background-color: #484FB7;
+  text-align: center;
+}
+#menu{
+  background-color: #E9BB57;
+}
+a{
+  display: grid;
+  border-radius: 5px;
+  background: #ffffff;
+  padding: 8px 4px;
+  margin: 2px 4px;
+}
+#services{
+  background-color: #484FB7;
+}
+#services > div{
+  display: grid;
+  border-radius: 5px;
+  background: #ffffff;
+  padding: 8px 4px;
+  margin: 2px 4px;
+}
+#grid-container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  text-align: center;
+}
+#pa{
+  display: grid;
+  border-radius: 5px;
+  background: #4CA7C0;
+  padding: 20px;
+  margin: 2px 4px;
+}
+#pr{
+  display: grid;
+  border-radius: 5px;
+  background: #484FB7;
+  padding: 20px;
+  margin: 2px 4px;
+}
+#se{
+  display: grid;
+  border-radius: 5px;
+  background: #E9BB57;
+  padding: 20px;
+  margin: 2px 4px;
+}
+#fo{
+  display: grid;
+  border-radius: 5px;
+  background: #ffffff;
+  padding: 20px;
+  margin: 2px 4px;
+}
+#choose{
+  background-color: #D9526F;
+}
+#prices{
+  background-color: #484FB7;
+}
+#first{
+  background-color: #D9526F;
+}
+footer{
+  background-color: #484FB7;
+}
+nav > a {
+  background-color: #ffffff;
+}
+nav > p{
+  color: #ffffff;
+  font-size: small;
+}
+img {
+  align-items: left;
+}
+table{
+    position: relative;
+    left: 25%;
+   
+}
+th{
+  color: #1E1E1E;
+  font-weight: bold;
+  background-color: #E9BB57;
+  text-align: center;
+  padding: 10px;
+  width: 100px;
+}
+td{
+  color: #1E1E1E;
+  text-align: center;
+  font-size: small;
+  background-color: #ffffff;
+  border:#E9BB57;
+  padding: 10px;
+  width:100px ;
 }
 h1,h2{
     font-family: Kavoon;
-    color: #E9BB57;
+    color: #ffffff;
 }
 h1{
     font-size: 3em;
 }
 nav h2{
     font-size: 1.5em;
+    color: #1E1E1E;
+    font-family: Inter;
 }
 h2{
     font-size: 2em;
 }
 h3{
     font-size: 1.5em;
+    color: #E9BB57;
 }
 h4{
     font-size: 1.15em;
+    color: #484FB7;
+}
+#first p{
+  color: #ffffff;
+}
+input[type=submit]{
+  position: relative;
+  left: 25px;
+  background-color: #ffffff;
+  color: #1E1E1E;
+  width: 400px;
+  padding: 10px;
+  font-weight: bold;
+  box-shadow: #1E1E1E;
+  border-radius: 15px;
+}
+#footer{
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+#footer p{
+  margin: 20px;
+}
+#footer a{
+  color: #ffffff;
+  background-color: #484FB7;
+  border-radius: none;
+  margin: 10px;
 }
 
 
